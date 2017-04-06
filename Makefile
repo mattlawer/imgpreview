@@ -8,7 +8,7 @@ SRC=imgpreview.m
 CFLAGS=-Wall -g
 LDFLAGS=$(LIBRARIES) $(FRAMEWORKS)
 
-.PHONY: all ios clean install
+.PHONY: all clean install
 
 all : imgpreview clean
 
